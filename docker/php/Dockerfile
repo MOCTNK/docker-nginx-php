@@ -1,4 +1,6 @@
 FROM php:8.1-fpm
+RUN chmod -R 777 /var/www
+
 RUN apt-get update && apt-get install -y \
       apt-utils \
       libpq-dev \

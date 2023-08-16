@@ -3,7 +3,7 @@
 $ cd docker/
 $ docker-compose up -d 
 ```
-Site - http://localhost:8180/
+App - http://localhost:8180/
 
 ### Stop
 ```bash
@@ -13,9 +13,9 @@ $ docker-compose down
 
 ### DataBase MySQL
 
-- Host: mysql
-- User: root
-- Password: 123
+- `Host`: mysql
+- `User`: root
+- `Password`: 123
 
 Use PhpMyAdmin - http://localhost:8181/
 
